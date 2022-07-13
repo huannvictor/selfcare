@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #161616;
+}
+
+hr.divider{
+  height: .5px;
+  background-color: #A5A1A1;
+  border: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+header a{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: #161616;
+  font-size: large;
+  font-weight: 700;
+}
+
+header nav ul{
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+main figure.banner-promotional{
+  width: auto;
+  height: 220px;
+  background: url(assets/banner.png) no-repeat center/200%;
+}
+
+main section div#content-area-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+/* main section div#product-list{} */
+

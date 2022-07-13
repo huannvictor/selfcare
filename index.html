@@ -1,11 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <script defer src="js/main.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#"
+        ><img src="assets/starIcon.svg" alt="ícone de estrela" /> selfcare</a
+      >
+      <nav>
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="assets/searchIcon.svg" alt="ícone de lupa, pesquisar"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="assets/userIcon.svg"
+                alt="ícone representando pessoa, perfil"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="assets/cartIcon.svg"
+                alt="ícone de carrinho de compras"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <figure class="banner-promotional"></figure>
+
+      <section id="content-area">
+        <div id="content-area-header">
+          <strong>PROMOÇÃO</strong>
+          <p>9 produtos</p>
+        </div>
+
+        <hr class="divider" />
+
+        <div id="product-list"></div>
+      </section>
+    </main>
+
+    <hr class="divider" />
+
+    <footer>
+      <section>
+        <ul>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Termos de Serviço</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Cancelamento, troca e reembolso</a></li>
+        </ul>
+        <div id="newsletter">
+          <p>Newsletter</p>
+          <form>
+            <input type="email" placeholder="Digite seu melhor email" />
+            <button type="submit">Inscrever</button>
+          </form>
+        </div>
+      </section>
+
+      <hr class="divider" />
+
+      <section>
+        <div id="social">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com" target="_blank"
+                ><img src="" alt="logo instagram em verde"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com" target="_blank"
+                ><img src="" alt="logo facebook em verde"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="card">
+          <ul>
+            <li><img src="" alt="logo mastercard" /></li>
+            <li><img src="" alt="logo paypal" /></li>
+            <li><img src="" alt="logo visa" /></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
