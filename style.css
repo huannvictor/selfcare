@@ -120,7 +120,7 @@ form#newsletter{
 
 form#newsletter input#email{
   min-height: 30px;
-  border: 1px solid #A5A1A1;
+  border: 2px solid #5CA720;
   border-radius: 5px;
   padding: 10px;
   outline: none;
@@ -128,7 +128,7 @@ form#newsletter input#email{
 
 form#newsletter button{
   min-height: 30px;
-  border: 1px solid #A5A1A1;
+  border: 2px solid #5CA720;
   border-radius: 5px;
   padding: 10px;
   background-color: #5CA720;
@@ -148,4 +148,54 @@ ul#cards-list{
   gap: 10px;
   align-items: center;
   justify-content: center;
+}
+
+
+@media (min-width: 1024px) {
+  main section div#product-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  img.product-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  footer section#contact-info{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+  }
+
+  form#newsletter {
+    display: grid;
+    grid-template-areas: 
+      "newsletter newsletter"
+      "email send";
+    gap: 0;
+  }
+
+  form#newsletter label{
+    grid-area: newsletter;
+  }
+
+  form#newsletter input#email{
+    grid-area: email;
+    max-height: 45px;
+    min-width: 300px;
+    border-radius: 5px 0 0 5px;
+  }
+
+  form#newsletter button{
+    grid-area: send;
+    max-height: 45px;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  section#social-and-cards{
+    padding: 20px 80px;
+  }
+
 }
