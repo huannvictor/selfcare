@@ -21,8 +21,8 @@ During this challenge of <a href="https://devchallenge.now.sh/"> DevChallenge</a
 
 # Challenge
 
-The challenge was to build a landing page about a website that create graphics.<br>
-O desafio foi de criar uma página sobre um site de criação de gráficos.
+The challenge was to build a page to display products from an online store called <strong>selfcare</strong>.<br>
+O desafio foi de construir uma página para exibição de produtos de uma loja online chamada <strong>selfcare</strong>.
 
 
 # Techs: 
