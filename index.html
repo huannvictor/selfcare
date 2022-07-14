@@ -63,47 +63,48 @@
     <hr class="divider" />
 
     <footer>
-      <section>
-        <ul>
+      <section id="contact-info">
+        <ul id="contact-links">
           <li><a href="#">Contato</a></li>
           <li><a href="#">Termos de Serviço</a></li>
           <li><a href="#">Política de Privacidade</a></li>
           <li><a href="#">Cancelamento, troca e reembolso</a></li>
         </ul>
-        <div id="newsletter">
-          <p>Newsletter</p>
-          <form>
-            <input type="email" placeholder="Digite seu melhor email" />
-            <button type="submit">Inscrever</button>
-          </form>
-        </div>
+
+        <form id="newsletter">
+          <label for="email"> Newsletter </label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Digite seu melhor email"
+          />
+          <button type="submit">Inscrever</button>
+        </form>
       </section>
 
       <hr class="divider" />
 
-      <section>
-        <div id="social">
-          <ul>
-            <li>
-              <a href="https://www.instagram.com" target="_blank"
-                ><img src="" alt="logo instagram em verde"
-              /></a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com" target="_blank"
-                ><img src="" alt="logo facebook em verde"
-              /></a>
-            </li>
-          </ul>
-        </div>
+      <section id="social-and-cards">
+        <ul id="social-links">
+          <li>
+            <a href="https://www.instagram.com" target="_blank"
+              ><img
+                src="assets/instagramIcon.svg"
+                alt="logo instagram em verde"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com" target="_blank"
+              ><img src="assets/facebookIcon.svg" alt="logo facebook em verde"
+            /></a>
+          </li>
+        </ul>
 
-        <div id="card">
-          <ul>
-            <li><img src="" alt="logo mastercard" /></li>
-            <li><img src="" alt="logo paypal" /></li>
-            <li><img src="" alt="logo visa" /></li>
-          </ul>
-        </div>
+        <ul id="cards-list">
+          <li><img src="assets/masterIcon.svg" alt="logo mastercard" /></li>
+          <li><img src="assets/paypalIcon.svg" alt="logo paypal" /></li>
+          <li><img src="assets/visaIcon.svg" alt="logo visa" /></li>
+        </ul>
       </section>
     </footer>
   </body>

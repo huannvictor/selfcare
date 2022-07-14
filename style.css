@@ -7,6 +7,16 @@
 body {
   font-family: 'Lato', sans-serif;
   color: #161616;
+  font-size: small;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #161616;
 }
 
 hr.divider{
@@ -26,8 +36,6 @@ header a{
   display: flex;
   align-items: center;
   gap: 5px;
-  text-decoration: none;
-  color: #161616;
   font-size: large;
   font-weight: 700;
 }
@@ -35,7 +43,6 @@ header a{
 header nav ul{
   display: flex;
   gap: 10px;
-  list-style: none;
 }
 
 main figure.banner-promotional img{
@@ -85,3 +92,60 @@ figcaption.product-description .product-price span{
   color: #5CA720;
 }
 
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  background-color: #F9F9F9;
+}
+
+footer section {
+  padding: 20px;
+}
+
+footer section#contact-info{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-weight: 700;
+}
+
+ul#contact-links,
+form#newsletter{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form#newsletter input#email{
+  min-height: 30px;
+  border: 1px solid #A5A1A1;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}
+
+form#newsletter button{
+  min-height: 30px;
+  border: 1px solid #A5A1A1;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #5CA720;
+  color: #FFF;
+  cursor: pointer;
+} 
+
+section#social-and-cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul#social-links,
+ul#cards-list{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}

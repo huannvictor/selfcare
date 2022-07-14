@@ -2,7 +2,7 @@ import { elementsList } from "./elementsList.js";
 
 let productList = document.getElementById("product-list");
 
-elementsList.map((element, key) => {
+elementsList.map(element => {
   let figure = document.createElement("figure");
   let img = document.createElement("img");
   let figcaption = document.createElement("figcaption");
